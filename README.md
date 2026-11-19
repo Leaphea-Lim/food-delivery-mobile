@@ -55,7 +55,7 @@ lib/
 │   ├── constants/                       # Brand tokens, dimensions, typography, API endpoints
 │   │   ├── app_colors.dart              # Primary (#5B21B6), Secondary (#2ECC71), neutral & status colors
 │   │   ├── app_sizes.dart               # Spacing, button/card radii, and layout padding
-│   │   ├── app_text_styles.dart         # Inter & Kantumruy text styles
+│   │   ├── app_text_styles.dart         # Poppins & Kantumruy text styles
 │   │   └── api_endpoints.dart           # Base URLs, REST endpoints, and timeout configs
 │   ├── theme/                           # Centralized Material 3 ThemeData
 │   │   └── app_theme.dart               # Unified light theme configuration
@@ -118,7 +118,7 @@ lib/
 | **Primary 800** | `#491896` | Primary hover & pressed state |
 | **Secondary 500** | `#2ECC71` | Accent color for success states, confirmations & highlights |
 | **Secondary 600** | `#22A559` | Secondary hover & active state |
-| **Typography** | `Inter` & `Kantumruy Pro` | Clear legibility in English and Khmer text |
+| **Typography** | `Poppins` & `Kantumruy Pro` | Clear legibility in English and Khmer text |
 
 Design tokens are centralized in `lib/core/constants/` and accessible across all widgets.
 
@@ -131,7 +131,7 @@ Design tokens are centralized in `lib/core/constants/` and accessible across all
 | **Framework** | Flutter 3.50.0 (stable) |
 | **Language** | Dart 3.14.0 |
 | **UI Components** | Material 3 & Custom Design System |
-| **Fonts** | Inter / Poppins (English), Kantumruy Pro (Khmer) |
+| **Fonts** | Poppins (English), Kantumruy Pro (Khmer) |
 | **Backend** | REST API (separate repository) |
 
 ---
