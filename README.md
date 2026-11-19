@@ -160,25 +160,11 @@ flutter doctor
 flutter run
 ```
 
-> **Windows users:** Clone the project into a short path with no spaces or brackets (e.g., `D:\flutter_projects\food_delivery`). Paths containing characters like `RUPP(UNI)` may cause Gradle builds to fail.
-
----
-
-## 🤝 Contributing Guidelines
-
-1. **Branching Strategy:** Do not push directly to `main`. Create feature branches (`feature/<feature-name>`) and open pull requests into `develop`.
-2. **Review Process:** The Team Lead reviews and approves pull requests before merging.
-3. **Screen Convention:** Keep one screen per file named after the view (e.g., `order_details_screen.dart`).
-4. **Design Tokens:** Never hardcode raw hex colors or magic spacing numbers in screens. Always reference `AppColors` and `AppSizes`.
-5. **Shared vs Feature Widgets:** Place widgets used across 2+ roles in `lib/shared/widgets/`. Role-specific widgets belong in `lib/features/<role>/widgets/`.
-6. **Security:** Never commit secrets, credentials, keystores, or `.env` files.
-7. **Verification:** Always run `flutter analyze` and `flutter test` before opening a pull request.
-
----
+> **Windows users:** Clone the project into a short path with no spaces or brackets (e.g., `D:\flutter_projects\food_delivery`).
 
 ## 👥 Development Team (Team 5)
 
-- **Lim Ansoleaphea** — Team Lead
+- **Lim Ansoleaphea**
 - **Sorn Noeng**
 - **Vuth Sovathidapov**
 - **Ly Mengleang**
