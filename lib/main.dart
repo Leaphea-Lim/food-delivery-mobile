@@ -1,7 +1,6 @@
 import 'package:material_ui/material_ui.dart';
-import 'constants/app_colors.dart';
-
-import 'screens/auth/welcome_screen.dart';
+import 'core/theme/app_theme.dart';
+import 'features/auth/screens/welcome_screen.dart';
 
 void main() {
   runApp(const FoodDeliveryApp());
@@ -15,10 +14,7 @@ class FoodDeliveryApp extends StatelessWidget {
     return MaterialApp(
       title: 'Food Delivery System',
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        useMaterial3: true,
-        scaffoldBackgroundColor: AppColors.background,
-      ),
+      theme: AppTheme.lightTheme,
       home: const WelcomeScreen(),
     );
   }
