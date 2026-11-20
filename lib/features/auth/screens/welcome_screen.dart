@@ -3,6 +3,7 @@ import '../../../core/constants/app_colors.dart';
 import '../../../core/constants/app_sizes.dart';
 import '../../../core/constants/app_text_styles.dart';
 import '../../../shared/widgets/buttons/primary_button.dart';
+import 'auth_landing_screen.dart';
 
 class WelcomeScreen extends StatelessWidget {
   const WelcomeScreen({super.key});
@@ -89,7 +90,11 @@ class WelcomeScreen extends StatelessWidget {
                       PrimaryButton(
                         text: 'CONTINUE',
                         onPressed: () {
-                          // Navigation will be implemented later.
+                          Navigator.of(context).push(
+                            MaterialPageRoute(
+                              builder: (_) => const AuthLandingScreen(),
+                            ),
+                          );
                         },
                       ),
                     ],
