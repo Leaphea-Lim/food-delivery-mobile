@@ -4,9 +4,13 @@ class AppRoutes {
 
   // Auth Routes
   static const String welcome = '/';
+  static const String authLanding = '/auth/landing';
   static const String login = '/login';
   static const String register = '/register';
   static const String forgotPassword = '/forgot-password';
+  static const String verifyOtp = '/auth/verify-otp';
+  static const String resetPassword = '/auth/reset-password';
+  static const String emailFlow = '/auth/email-flow';
 
   // Customer Routes
   static const String customerHome = '/customer/home';
@@ -19,6 +23,11 @@ class AppRoutes {
   static const String customerProfile = '/customer/profile';
   static const String customerEditProfile = '/customer/edit-profile';
   static const String customerAddresses = '/customer/addresses';
+  static const String customerAddAddress = '/customer/add-address';
+  static const String customerPaymentMethods = '/customer/payment-methods';
+  static const String customerAddPaymentMethod = '/customer/add-payment-method';
+  static const String customerLoyalty = '/customer/loyalty';
+  static const String customerReferral = '/customer/referral';
   static const String customerNotifications = '/customer/notifications';
 
   // Driver Routes
