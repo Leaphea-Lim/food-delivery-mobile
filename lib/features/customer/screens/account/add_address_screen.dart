@@ -139,7 +139,7 @@ class _AddAddressScreenState extends State<AddAddressScreen> {
                   children: [
                     Switch(
                       value: _isDefault,
-                      activeColor: AppColors.secondary,
+                      activeThumbColor: AppColors.secondary,
                       onChanged: (v) => setState(() => _isDefault = v),
                     ),
                     const SizedBox(width: 8),

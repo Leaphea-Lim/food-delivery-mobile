@@ -202,7 +202,7 @@ class _AccountProfileScreenState extends State<AccountProfileScreen> {
                     title: 'Notifications',
                     trailing: Switch(
                       value: _notifications,
-                      activeColor: AppColors.secondary,
+                      activeThumbColor: AppColors.secondary,
                       onChanged: (v) => setState(() => _notifications = v),
                     ),
                     onTap: () =>

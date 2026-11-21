@@ -94,7 +94,7 @@ class _SavedAddressesScreenState extends State<SavedAddressesScreen> {
                       padding:
                           const EdgeInsets.all(AppSizes.screenHorizontalPadding),
                       itemCount: _addresses.length,
-                      separatorBuilder: (_, __) => const SizedBox(height: 12),
+                      separatorBuilder: (context, index) => const SizedBox(height: 12),
                       itemBuilder: (_, i) {
                         final a = _addresses[i];
                         return AccountCard(
